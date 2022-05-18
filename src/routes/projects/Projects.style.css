@@ -1,0 +1,9 @@
+.projects-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #1f2933;
+  color: #dae4ee;
+}

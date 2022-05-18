@@ -1,0 +1,29 @@
+.myself h1 {
+  font-family: "Playball", cursive;
+  font-weight: 100;
+  font-size: 5rem;
+}
+
+.home-intro {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dae4ee;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 23s infinite;
+  text-align: center;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}

@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  color: #dae4ee;
+}
+
+.navigation {
+  position: absolute;
+  height: 70px;
+  width: 100vw;
+  padding: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation .nav-container .logo h1 {
+  font-family: "Playball", cursive;
+  font-weight: 100;
+}
+
+.navigation .nav-container .nav-links {
+  writing-mode: vertical-rl;
+}
+
+.navigation .nav-container .nav-links a .project-icon {
+  transition: transform 1s;
+}
+
+.navigation .nav-container .nav-links a .project-icon:hover {
+  transform: rotate(90deg);
+}
+
+.navigation .nav-container .nav-links .projects {
+  transition: color 0.5s;
+}
+
+.navigation .nav-container .nav-links .projects:hover {
+  color: white;
+}
+
+.navigation .nav-container .logo h1 {
+  transition: color 0.5s;
+}
+
+.navigation .nav-container .logo h1:hover {
+  color: white;
+}
