@@ -4,16 +4,31 @@
   font-size: 5rem;
 }
 
+.contact-link a {
+  border: 1px solid #dae4ee;
+  padding: 10px;
+}
+
+.contact-link a:hover {
+  color: white;
+  border-color: white;
+}
+
 .home-intro {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   color: #dae4ee;
+  padding-top: 35vh;
+}
+
+.home-intro .myself {
+  margin-bottom: 60px;
+}
+
+.home {
+  min-height: 100vh;
   background-size: 300%;
   background-image: var(--gradient);
   animation: bg-animation 23s infinite;
-  text-align: center;
 }
 
 @keyframes bg-animation {

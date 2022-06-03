@@ -24,24 +24,12 @@ a {
   writing-mode: vertical-rl;
 }
 
-.navigation .nav-container .nav-links a .project-icon {
-  transition: transform 1s;
+.navigation .nav-container .nav-links a {
+  padding: 20px;
 }
 
-.navigation .nav-container .nav-links a .project-icon:hover {
-  transform: rotate(90deg);
-}
-
-.navigation .nav-container .nav-links .projects {
-  transition: color 0.5s;
-}
-
-.navigation .nav-container .nav-links .projects:hover {
+.navigation .nav-container .nav-links a:hover {
   color: white;
-}
-
-.navigation .nav-container .logo h1 {
-  transition: color 0.5s;
 }
 
 .navigation .nav-container .logo h1:hover {

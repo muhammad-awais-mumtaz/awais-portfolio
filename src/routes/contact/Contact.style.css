@@ -1,4 +1,4 @@
-.projects-section {
+.contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,12 +6,4 @@
   height: 100vh;
   background-color: #1f2933;
   color: #dae4ee;
-}
-
-.projects-list {
-  width: 85vw;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
 }

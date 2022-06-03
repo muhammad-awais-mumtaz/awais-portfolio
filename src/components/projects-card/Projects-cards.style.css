@@ -1,0 +1,14 @@
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transition: transform 0.25s ease-out;
+}
+
+.project-card-container:hover {
+  transform: scale(1.05);
+}

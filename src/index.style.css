@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 
 :root {
-  /* --gradient: linear-gradient(45deg, #ee6352, purple, #ee6352); */
-  /* --gradient: linear-gradient(-60deg, #1f2933, #525c66, #858f99); */
   --gradient: linear-gradient(
     -60deg,
     #0dd99f,
@@ -11,7 +9,6 @@
     #0f808c,
     #0f5c8c
   );
-  /* --gradient: radial-gradient(#0dd99f, #0fa697, #0f808c, #0f5c8c, #11d97c, ); */
 }
 
 * {
