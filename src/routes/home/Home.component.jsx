@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./Home.style.css";
-import { MdOutlineContactSupport } from "react-icons/md";
 
 function Home() {
   return (
@@ -11,9 +10,7 @@ function Home() {
           <p>&lt;Fullstack/&gt; developer Love to solve problems.</p>
         </div>
         <div className="contact-link">
-          <Link to="/contact">
-            Contact <MdOutlineContactSupport />
-          </Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </div>

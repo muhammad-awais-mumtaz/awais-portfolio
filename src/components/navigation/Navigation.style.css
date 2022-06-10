@@ -1,13 +1,9 @@
-a {
-  text-decoration: none;
-  color: #dae4ee;
-}
-
 .navigation {
   position: absolute;
   height: 70px;
   width: 100vw;
-  padding: 20px;
+  padding: 30px;
+  font-size: 1.5rem;
 }
 
 .nav-container {
@@ -20,12 +16,8 @@ a {
   font-weight: 100;
 }
 
-.navigation .nav-container .nav-links {
-  writing-mode: vertical-rl;
-}
-
 .navigation .nav-container .nav-links a {
-  padding: 20px;
+  padding-left: 30px;
 }
 
 .navigation .nav-container .nav-links a:hover {

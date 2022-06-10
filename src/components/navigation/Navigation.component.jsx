@@ -2,11 +2,13 @@ import { Fragment, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { FaRegGrinBeam } from "react-icons/fa";
+import { MdOutlineContactSupport } from "react-icons/md";
 import "./Navigation.style.css";
 
 function Navigation() {
   const [projectIconToggler, setProjectIconToggler] = useState(false);
   const [aboutIconToggler, setAboutIconToggler] = useState(false);
+  const [contactIconToggler, setContactIconToggler] = useState(false);
 
   return (
     <Fragment>
@@ -28,7 +30,7 @@ function Navigation() {
               <AiOutlineFundProjectionScreen
                 className="project-icon"
                 style={{
-                  transform: projectIconToggler ? "rotate(90deg)" : "",
+                  transform: projectIconToggler ? "rotate(360deg)" : "",
                   transition: "transform 1s ease",
                 }}
               />
@@ -43,7 +45,22 @@ function Navigation() {
               <FaRegGrinBeam
                 className="project-icon"
                 style={{
-                  transform: aboutIconToggler ? "rotate(90deg)" : "",
+                  transform: aboutIconToggler ? "rotate(360deg)" : "",
+                  transition: "transform 1s ease",
+                }}
+              />
+            </Link>
+            <Link
+              className="contact-link-nav"
+              to="/contact"
+              onMouseEnter={() => setContactIconToggler(true)}
+              onMouseLeave={() => setContactIconToggler(false)}
+            >
+              Contact&nbsp;
+              <MdOutlineContactSupport
+                className="contact-icon"
+                style={{
+                  transform: contactIconToggler ? "rotate(360deg)" : "",
                   transition: "transform 1s ease",
                 }}
               />

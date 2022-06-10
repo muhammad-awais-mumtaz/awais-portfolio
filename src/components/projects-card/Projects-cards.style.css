@@ -3,12 +3,55 @@
   flex-direction: column;
   border-radius: 5px;
   padding: 25px;
-  cursor: pointer;
-  -moz-osx-font-smoothing: grayscale;
-  backface-visibility: hidden;
-  transition: transform 0.25s ease-out;
+  background-color: #dae4ee;
+  color: #1f2933;
+  text-align: center;
+}
+.project-details img {
+  height: 100px;
 }
 
-.project-card-container:hover {
+.project-details a {
+  color: #1f2933;
+  transition: color o.2s;
+}
+
+.project-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.code a:hover {
+  color: black;
+}
+
+.code {
+  color: #1f2933;
+  transition: transform 0.2s ease-in-out;
+}
+
+.code:hover {
   transform: scale(1.05);
+  cursor: pointer;
+}
+
+.project {
+  color: #1f2933;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.video {
+  color: #1f2933;
+  transition: transform 0.2s ease-in-out;
+}
+
+.video:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }

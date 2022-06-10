@@ -1,0 +1,39 @@
+.myself-about-page {
+  width: 500px;
+  padding: 20px;
+}
+
+.about-myself p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+.my-pic {
+  background-image: url("../../assets/photos/myself.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 350px;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.gradient-layer {
+  min-height: 350px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: fg-animation 15s infinite;
+  opacity: 50%;
+  border-radius: 20px;
+}
+
+@keyframes fg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
