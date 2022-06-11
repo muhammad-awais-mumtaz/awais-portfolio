@@ -1,0 +1,65 @@
+.mobile-nav-container {
+  position: absolute;
+  width: 100vw;
+}
+
+.nav-shown-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100vw;
+}
+
+.mobile-nav-container h1 {
+  font-family: "Playball", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.close-open-sign {
+  color: #dae4ee;
+  font-size: 2rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.close-open-sign:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.09);
+}
+
+@media (min-width: 945px) {
+  .mobile-nav-container {
+    display: none;
+  }
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+}
+
+.mobile-nav-links div {
+  padding: 10px;
+}
+
+.mobile-nav-links-container {
+  position: absolute;
+  text-align: center;
+  top: -200px;
+  width: 100vw;
+}
+
+.hover-white:hover {
+  color: white;
+}
+
+.background-color-toggle {
+  background-color: rgba(0, 0, 0, 0.414);
+}
+
+.show {
+  top: 82.5px;
+  transition: 0.5s;
+}

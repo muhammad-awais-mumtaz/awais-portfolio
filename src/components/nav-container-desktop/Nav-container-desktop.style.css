@@ -20,8 +20,8 @@
   color: white;
 }
 
-/* @media (max-width: 945px) {
-    .nav-container {
-      display: none;
-    }
-  } */
+@media (max-width: 945px) {
+  .nav-container {
+    display: none;
+  }
+}

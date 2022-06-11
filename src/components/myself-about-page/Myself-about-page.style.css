@@ -16,9 +16,8 @@
 .gradient-layer {
   min-height: 350px;
   background-size: 300%;
-  background-image: var(--gradient);
+  background-image: var(--gradient-light);
   animation: fg-animation 15s infinite;
-  opacity: 50%;
   border-radius: 20px;
 }
 
