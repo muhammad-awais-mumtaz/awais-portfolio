@@ -1,0 +1,27 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation .nav-container .logo h1 {
+  font-family: "Playball", cursive;
+  font-weight: 100;
+}
+
+.navigation .nav-container .nav-links a {
+  padding-left: 30px;
+}
+
+.navigation .nav-container .nav-links a:hover {
+  color: white;
+}
+
+.navigation .nav-container .logo h1:hover {
+  color: white;
+}
+
+/* @media (max-width: 945px) {
+    .nav-container {
+      display: none;
+    }
+  } */

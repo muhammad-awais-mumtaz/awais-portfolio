@@ -1,0 +1,25 @@
+.about-skills {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.skill-link {
+  transition: transform 0.3s;
+  padding-left: 10px;
+}
+
+.skill-link:hover {
+  transform: scale(1.09);
+}
+
+.skill-link a:hover {
+  color: white;
+}

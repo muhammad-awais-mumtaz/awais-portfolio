@@ -5,20 +5,16 @@
 }
 
 .projects-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  padding-top: 10vh;
+  text-align: center;
+  padding-top: 6rem;
 }
 
 .projects-section h1 {
-  padding-bottom: 25px;
+  padding-bottom: 2rem;
 }
 
 .projects-list {
-  width: 85vw;
+  width: 75vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -33,10 +29,6 @@
 
   .projects-list {
     grid-template-columns: 1fr;
-    padding-bottom: 10rem;
-  }
-
-  .projects-section {
-    height: 100%;
+    padding-bottom: 3rem;
   }
 }

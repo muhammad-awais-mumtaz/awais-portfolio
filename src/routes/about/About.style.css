@@ -6,29 +6,10 @@
   height: 100vh;
   background-color: #1f2933;
   color: #dae4ee;
+  padding-top: 5vh;
 }
 
-.about-skills {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.skills-icons {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  font-size: 4rem;
-  margin-top: 10px;
-}
-.skill-link {
-  transition: transform 0.3s;
-  padding-left: 10px;
-}
-
-.skill-link:hover {
-  transform: scale(1.09);
-}
-
-.skill-link a:hover {
-  color: white;
-}
+/* @media (max-width: 945px) {
+  .about-page {
+  }
+} */

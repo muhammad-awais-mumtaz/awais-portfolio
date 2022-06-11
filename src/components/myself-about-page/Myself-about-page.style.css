@@ -1,10 +1,6 @@
-.myself-about-page {
-  width: 500px;
-  padding: 20px;
-}
-
 .about-myself p {
   text-align: justify;
+  width: 350px;
   font-size: 17px;
 }
 
